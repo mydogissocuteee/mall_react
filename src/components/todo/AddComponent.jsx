@@ -9,8 +9,8 @@ const initState = {
     title: '',
     content: '',
     dueDate: ''
-
 }
+
 const AddComponent = () => {
 
     const [todo, setTodo] = useState({...initState})
